@@ -1,0 +1,55 @@
+[System]
+Count=4
+Sleep=500
+
+[App1]
+Path=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Arg=--app=http://www.yahoo.co.jp/
+ProcName=msedge
+ClassName=Chrome_WidgetWin_1
+NamePropertyLocal=アドレスと検索バー
+NameProperty=address and search bar
+Address=["http://"|"https://"]www\.yahoo\.co\.jp.*
+X=0
+Y=0
+Width=960
+Height=512
+
+[App2]
+Path=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Arg=--app=http://www.google.co.jp/
+ProcName=msedge
+ClassName=Chrome_WidgetWin_1
+NamePropertyLocal=アドレスと検索バー
+NameProperty=address and search bar
+Address=["http://"|"https://"]www\.google\.co\.jp.*
+X=960
+Y=0
+Width=960
+Height=512
+
+[App3]
+Path=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Arg=--app=http://www.github.com/
+ProcName=msedge
+ClassName=Chrome_WidgetWin_1
+NamePropertyLocal=アドレスと検索バー
+NameProperty=address and search bar
+Address=["http://"|"https://"]github\.com.*
+X=0
+Y=512
+Width=960
+Height=512
+
+[App4]
+Path=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Arg=--app=http://moneyforward.com/
+ProcName=msedge
+ClassName=Chrome_WidgetWin_1
+NamePropertyLocal=アドレスと検索バー
+NameProperty=address and search bar
+Address=["http://"|"https://"]moneyforward\.com.*
+X=960
+Y=512
+Width=960
+Height=512
